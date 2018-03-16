@@ -1,0 +1,26 @@
+/*estilos generales*/
+.contenido{
+  background-color: #02010a;
+  margin-top: 0px;
+}
+/*clases para el header*/
+header{
+  background-color: #5b7989;
+  min-height: 10%;
+  border-radius: 10px 10px 0px 0px;
+  margin: 15px;
+}
+.navbar{
+  text-align: right;
+  color: #FFFFFF;
+  display: inline block; /*no logro que funcione*/
+}
+.enlaces{
+  list-style: none;
+  padding-right: 2px;
+}
+.titulo-inicial{
+  text-align: left;
+  color: #FFFFFF;
+  text-shadow: 2px #02010a;
+}
