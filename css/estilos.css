@@ -1,17 +1,21 @@
 /*estilos generales*/
 .contenido{
   background-color: #02010a;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
 }
 /*clases para el header*/
-header{
+.encabezado{
   background-color: #5b7989;
-  min-height: 10%;
+  width: 100%;
   border-radius: 10px 10px 0px 0px;
-  margin: 15px;
+  display: flex;
 }
 .navbar{
   text-align: right;
   color: #FFFFFF;
+  width: 50%;
 }
 .enlaces{
   list-style: none;
@@ -29,6 +33,7 @@ li{
   margin-top: 15px;
   color: #FFFFFF;
   text-shadow: 2px 2px 2px #02010a;
+  width: 50%;
 }
 /*contenido central*/
 .central{
@@ -38,9 +43,35 @@ li{
 .img-central{
   width: 80%;
   height: 500px;
+  padding: 15px;
 }
 /*articulos*/
 .secundario{
   background-color: #d5c75f;
-  display: column;
+  display: flex;
+  width: 100%;
+}
+.izq{
+  text-align: left;
+  width: 50%;
+  padding: 15px;
+}
+.der{
+  text-align: right;
+  width: 50%;
+  padding: 15px;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.img-izq{
+  height: 350px;
+  width: 100%;
+  border: solid black 1px;
+}
+.img-der{
+  height: 350px;
+  width: 100%;
+  border: solid black 1px;
 }
