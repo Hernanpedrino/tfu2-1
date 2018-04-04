@@ -1,12 +1,13 @@
 /*estilos generales*/
-.contenido{
+body{
   background-color: #02010a;
-  max-width: 900px;
   width: 100%;
+  max-width: 900px;
   text-align: center;
+  margin: auto;
 }
 /*clases para el header*/
-.encabezado{
+header{
   background-color: #5b7989;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
@@ -14,24 +15,25 @@
 }
 .navbar{
   text-align: right;
+  margin-right: 15px;
   color: #FFFFFF;
   width: 50%;
   float: right;
 }
 .enlaces{
   list-style: none;
-  margin-right: 5px;
   text-shadow: 2px 2px 2px #02010a;
+  margin: auto;
+  padding-top: 32px;
 }
 li{
   display: inline;
   font-size: 20px;
-  margin-top: 5px;
+  padding: 7px;
 }
 .titulo-inicial{
   text-align: left;
   margin-left: 15px;
-  margin-top: 15px;
   color: #FFFFFF;
   text-shadow: 2px 2px 2px #02010a;
   width: 50%;
@@ -44,7 +46,7 @@ li{
 }
 .img-central{
   width: 80%;
-  height: 500px;
+  height: 400px;
   padding: 15px;
 }
 /*articulos*/
@@ -80,7 +82,7 @@ h2{
 /*footer*/
 .pie{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   background-color: #C6d5c5;
   width: 100%;
   border-radius: 0px 0px 10px 10px;
@@ -88,16 +90,24 @@ h2{
 .Contacto{
   width: 25%;
   text-align: left;
+  padding: 5px;
 }
 .Terminos{
   width: 25%;
   text-align: left;
+  padding: 5px;
 }
 .Redes{
   width: 25%;
   text-align: left;
+  padding: 5px;
 }
 .Derechos{
   width: 25%;
   text-align: left;
+  padding: 5px;
+}
+.logo{
+  width: 15%;
+  height: 25px;
 }
