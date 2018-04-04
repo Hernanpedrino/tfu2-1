@@ -1,7 +1,6 @@
 /*estilos generales*/
 .contenido{
   background-color: #02010a;
-  margin-top: 0px;
 }
 /*clases para el header*/
 header{
@@ -13,14 +12,35 @@ header{
 .navbar{
   text-align: right;
   color: #FFFFFF;
-  display: inline block; /*no logro que funcione*/
 }
 .enlaces{
   list-style: none;
-  padding-right: 2px;
+  margin-right: 5px;
+  text-shadow: 2px 2px 2px #02010a;
+}
+li{
+  display: inline;
+  font-size: 20px;
+  margin-top: 5px;
 }
 .titulo-inicial{
   text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
   color: #FFFFFF;
-  text-shadow: 2px #02010a;
+  text-shadow: 2px 2px 2px #02010a;
+}
+/*contenido central*/
+.central{
+  background-color: #82c3a6;
+  text-align: center;
+}
+.img-central{
+  width: 80%;
+  height: 500px;
+}
+/*articulos*/
+.secundario{
+  background-color: #d5c75f;
+  display: column;
 }
