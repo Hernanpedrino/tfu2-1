@@ -18,6 +18,18 @@
         60%{margin-top: -5%}
         100%{margin-top: 0%}
       }
+      #img-izq{
+        transition-duration: 1s;
+      }
+      #img-izq:hover{
+       transform: rotate(10deg);
+      }
+      #img-der{
+        transition-duration: 1s;
+      }
+      #img-der:hover{
+        transform: translateX(5px) translateY(-20px);
+      }
     </style>
   </head>
   <section id="contenedor">
@@ -44,13 +56,13 @@
       </div>
       <div class="secundario">
         <div class="izq">
-          <section class="">
-          <img src="img/retrato-rc.jpg" class="img-izq"><h2><a href="#">Retratos</a></h2>
+          <section>
+          <img src="img/retrato-rc.jpg" id="img-izq"><h2><a href="#">Retratos</a></h2>
         </section>
         </div>
         <div class="der">
-          <section class="">
-              <img src="img/paisaje-rc.jpg" class="img-der"><h2><a href="#">Paisajes</a></h2>
+          <section>
+              <img src="img/paisaje-rc.jpg" id="img-der"><h2><a href="#">Paisajes</a></h2>
           </section>
         </div>
       </div>

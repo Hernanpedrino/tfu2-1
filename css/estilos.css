@@ -65,15 +65,17 @@ h2{
   text-align: center;
   text-decoration: underline;
 }
-.img-izq{
+#img-izq{
   height: 350px;
   width: 100%;
   border: solid black 1px;
+  text-shadow: 1px 1px 1px #82c3a6;
 }
-.img-der{
+#img-der{
   height: 350px;
   width: 100%;
   border: solid black 1px;
+  text-shadow: 1px 1px 1px #82c3a6;
 }
 /*footer*/
 .pie{
