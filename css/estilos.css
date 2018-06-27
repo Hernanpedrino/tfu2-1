@@ -1,10 +1,6 @@
-/*estilos generales*/
+/*estilo del body*/
 body{
   background-color: #02010a;
-  width: 100%;
-  max-width: 900px;
-  text-align: center;
-  margin: auto;
 }
 /*clases para el header*/
 header{
