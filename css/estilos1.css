@@ -1,0 +1,73 @@
+/*clases para el body*/
+body{
+  background-color: #02010a;
+}
+/*clases para el header*/
+header{
+  background-color: #5b7989;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.navbar{
+  text-align: right;
+  margin-right: 15px;
+  color: #FFFFFF;
+  width: 50%;
+  float: right;
+}
+.enlaces{
+  list-style: none;
+  text-shadow: 2px 2px 2px #02010a;
+  margin: auto;
+  padding-top: 32px;
+}
+li{
+  display: inline;
+  font-size: 20px;
+  padding: 7px;
+}
+.titulo-inicial{
+  text-align: left;
+  margin-left: 15px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #02010a;
+  width: 50%;
+  float: left;
+}
+/*footer*/
+.pie{
+  display: flex;
+  flex-flow: row;
+  background-color: #C6d5c5;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+.Contacto{
+  width: 25%;
+  text-align: left;
+  padding: 5px;
+}
+.Terminos{
+  width: 25%;
+  text-align: left;
+  padding: 5px;
+}
+.Redes{
+  width: 25%;
+  text-align: left;
+  padding: 5px;
+}
+.Derechos{
+  width: 25%;
+  text-align: left;
+  padding: 5px;
+}
+.logo{
+  width: 15%;
+  height: 25px;
+}
