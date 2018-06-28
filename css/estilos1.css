@@ -39,6 +39,34 @@ li{
   width: 50%;
   float: left;
 }
+/*galeria central*/
+.galeria{
+  background-color: #d5c75f;
+  display: flex;
+  padding: 15px;
+}
+.col1{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
+.col2{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
+.col3{
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor{
+  padding: 15px;
+}
+img{
+  padding: 5px;
+  height: 200px;
+}
 /*footer*/
 .pie{
   display: flex;
