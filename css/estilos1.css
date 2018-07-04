@@ -68,6 +68,7 @@ img[class^="foto"]{
   width: 100%;
   height: 250px;
 }
+
 /*footer*/
 .pie{
   display: flex;
