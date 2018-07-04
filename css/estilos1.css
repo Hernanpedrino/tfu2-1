@@ -106,9 +106,39 @@ img[class^="foto"]{
   height: 25px;
 }
 /*mediaqueries*/
-@media (max-width:900px) {
-  body{
-  text-align: center;
+@media(max-width: 900px){
+body{
+text-align: center;
+width: 100%;
+}
+.navbar{
   width: 100%;
-  }
+  text-align: center;
+  order: 2
+}
+.titulo-inicial{
+  width: 100%;
+  text-align: center;
+  order: 1
+}
+.Contacto{
+  width: 100%;
+  order: 1;
+  text-align: center;
+}
+.Terminos{
+  width: 100%;
+  order: 2;
+  text-align: center;
+}
+.Redes{
+  width: 100%;
+  order: 3;
+  text-align: center;
+}
+.Derechos{
+  width: 100%;
+  order: 4;
+  text-align: center;
+}
 }
