@@ -1,6 +1,10 @@
 /*clases para el body*/
 body{
   background-color: #02010a;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
 }
 /*clases para el header*/
 header{
@@ -8,10 +12,6 @@ header{
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   display: flex;
-}
-h2{
-  text-align: center;
-  text-decoration: underline;
 }
 .navbar{
   text-align: right;
@@ -61,11 +61,12 @@ li{
   flex-direction: column;
 }
 .contenedor{
-  padding: 15px;
-}
-img{
+  text-align: center;
   padding: 5px;
-  height: 200px;
+}
+img[class^="foto"]{
+  width: 100%;
+  height: 250px;
 }
 /*footer*/
 .pie{
