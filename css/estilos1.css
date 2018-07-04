@@ -1,3 +1,7 @@
+/*estilo general*/
+*{
+  box-sizing: border-box;
+}
 /*clases para el body*/
 body{
   background-color: #02010a;
@@ -100,4 +104,11 @@ img[class^="foto"]{
 .logo{
   width: 15%;
   height: 25px;
+}
+/*mediaqueries*/
+@media (max-width:900px) {
+  body{
+  text-align: center;
+  width: 100%;
+  }
 }

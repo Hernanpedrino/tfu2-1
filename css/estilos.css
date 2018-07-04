@@ -1,3 +1,7 @@
+/*estilo general*/
+*{
+  box-sizing: border-box;
+}
 /*clases para el body*/
 body{
   background-color: #02010a;
@@ -47,9 +51,11 @@ li{
 }
 /*articulos*/
 .secundario{
+  box-sizing: border-box;
   background-color: #d5c75f;
   display: flex;
   width: 100%;
+  flex-flow: row wrap;
 }
 .izq{
   text-align: left;
@@ -79,28 +85,41 @@ h2{
 }
 /*footer*/
 .pie{
+  box-sizing: border-box;
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   background-color: #C6d5c5;
   width: 100%;
   border-radius: 0px 0px 10px 10px;
 }
 .Contacto{
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
   width: 25%;
   text-align: left;
   padding: 5px;
 }
 .Terminos{
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
   width: 25%;
   text-align: left;
   padding: 5px;
 }
 .Redes{
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
   width: 25%;
   text-align: left;
   padding: 5px;
 }
 .Derechos{
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
   width: 25%;
   text-align: left;
   padding: 5px;
@@ -108,4 +127,11 @@ h2{
 .logo{
   width: 15%;
   height: 25px;
+}
+/*mediaqueries*/
+@media (max-width:900px) {
+body{
+text-align: center;
+width: 100%;
+}
 }
