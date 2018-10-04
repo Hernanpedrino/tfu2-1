@@ -16,7 +16,7 @@ header{
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   display: flex;
-  flex-flow:row;
+  flex-direction: row;
 }
 .navbar{
   text-align: right;
@@ -79,6 +79,7 @@ img[class^="foto"]{
 
 /*footer*/
 .pie{
+  box-sizing: border-box;
   display: flex;
   flex-flow: row;
   background-color: #C6d5c5;
@@ -106,7 +107,7 @@ img[class^="foto"]{
   padding: 5px;
 }
 .logo{
-  width: 15%;
+  width: 25%;
   height: 25px;
 }
 /*mediaqueries*/
@@ -115,8 +116,12 @@ body{
 text-align: center;
 width: 100%;
 }
+header{
+  flex-direction: column;
+}
 .pie{
 flex-direction: column;
+text-align: left;
 }
 .navbar{
   width: 100%;
@@ -127,26 +132,6 @@ flex-direction: column;
   width: 100%;
   text-align: center;
   order: 1
-}
-.Contacto{
-  width: 100%;
-  order: 1;
-  text-align: center;
-}
-.Terminos{
-  width: 100%;
-  order: 2;
-  text-align: center;
-}
-.Redes{
-  width: 100%;
-  order: 3;
-  text-align: center;
-}
-.Derechos{
-  width: 100%;
-  order: 4;
-  text-align: center;
 }
 .galeria{
   flex-direction: column;
