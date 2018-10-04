@@ -16,6 +16,7 @@ header{
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   display: flex;
+  flex-flow:row;
 }
 .navbar{
   text-align: right;
@@ -48,6 +49,7 @@ li{
   background-color: #d5c75f;
   display: flex;
   padding: 15px;
+  flex-direction: row;
 }
 .col1{
   width: 33.3%;
@@ -67,6 +69,8 @@ li{
 .contenedor{
   text-align: center;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
 }
 img[class^="foto"]{
   width: 100%;
@@ -111,6 +115,9 @@ body{
 text-align: center;
 width: 100%;
 }
+.pie{
+flex-direction: column;
+}
 .navbar{
   width: 100%;
   text-align: center;
@@ -140,5 +147,18 @@ width: 100%;
   width: 100%;
   order: 4;
   text-align: center;
+}
+.galeria{
+  flex-direction: column;
+  text-align: center;
+}
+.col1{
+  width: 100%;
+}
+.col2{
+  width: 100%;
+}
+.col3{
+  width: 100%;
 }
 }
